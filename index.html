@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<head>
+    <title>Decodificador de Texto</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Decodificador de Texto</h1>
+    <img id="logo" src="alura.png" alt="Logo">
+    <textarea id="entradaTexto" placeholder="Digite aqui"></textarea><br>
+    <div class="botao">
+        <button onclick="criptografar()">Criptografar</button>
+        <button onclick="descriptografar()">Descriptografar</button>
+    </div>
+    <textarea id="saidaTexto" readonly></textarea><br>
+    <button id="copiar" onclick="copiarTexto()">Copiar</button>
+    <p id="mensagemValidacao">Apenas letras minúsculas e sem acento.</p>
+    <footer>Raonyr - 2024</footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
